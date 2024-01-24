@@ -1,0 +1,14 @@
+h1 {
+  font-size: 75px;
+  text-align: center;
+}
+
+section img {
+  width: 250px;
+  border-radius: 100px;
+  border: 5px black solid;
+}
+
+section {
+  text-align: center;
+}
