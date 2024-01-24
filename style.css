@@ -1,14 +1,45 @@
 h1 {
   font-size: 75px;
   text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 section img {
   width: 250px;
   border-radius: 100px;
-  border: 5px black solid;
+  border: 5px rgb(131, 131, 131) solid;
+  margin-right: 50x;
+}
+
+section img:hover {
+  border: 5px lightgrey solid;
 }
 
 section {
   text-align: center;
+}
+
+nav {
+  border-top: 1px solid black;
+  font-size: 24px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  padding: 20px;
+}
+
+li a,
+li a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: blue;
 }
